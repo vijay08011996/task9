@@ -1,0 +1,7 @@
+my_list = [10, 'hello', 25, 'world', 30]
+
+check_type = lambda x: isinstance(x, (int, str))
+
+result = list(map(check_type, my_list))
+
+print(result)
